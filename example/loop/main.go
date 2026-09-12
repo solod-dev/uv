@@ -1,5 +1,10 @@
 // Using the libuv library to run an event loop.
 //
+// Usage:
+//
+//	make example name=loop
+//	./build/loop
+//
 // Source: https://github.com/libuv/libuv/blob/v1.x/docs/code/default-loop/main.c
 package main
 

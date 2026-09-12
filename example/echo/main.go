@@ -1,5 +1,11 @@
 // Using the libuv library to run a TCP echo server on port 7010.
 //
+// Usage:
+//
+//	make example name=echo
+//	./build/echo
+//	echo 'hello' | nc localhost 7010
+//
 // Source: https://github.com/libuv/libuv/blob/v1.x/docs/code/tcp-echo-server/main.c
 package main
 
